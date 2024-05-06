@@ -1,3 +1,4 @@
+<!DOCTYPE html>
   <td>**Endpoint**
 
    </td>
