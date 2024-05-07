@@ -86,7 +86,7 @@ def get_todo_title(title: str = Path(...,description="Retrieve the title of the 
             return todos[id]
     return {"Error": "Todo not found"}
 
-# get all completed or incompleted todos
+# get all completed todos
 @app.get("/todo/completed")
 def get_completed_todos():
     completed_todos = [todos[id] for id in todos if todos[id].completed]
